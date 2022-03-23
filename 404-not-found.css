@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700;900&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    border-radius: 8px;
+}
+.nav{
+    font-family: 'Inconsolata', monospace;
+    font-weight: 900;
+    display: block;
+    height: 25px;
+    font-size: 24px;
+    color:  #333333;
+    line-height: 25px;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.content img{
+    Width: 286.83px;
+}
+.textContent{
+    font-family: monospace;
+}
+.textContent h1{
+    font-weight: 700 bold;
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #333333;
+}
+.textContent p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #4F4F4F;
+    line-height: 27px;
+    margin-bottom: 66px;
+}
+.butoon{
+    height: 68px;
+    width: 216px;
+    background: #333333;
+    margin-bottom: 50px;
+}
+.butoon p{
+    font-weight: 700, bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 23px;
+    text-align: center;
+}
+.footer{
+    width: 100vw;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+}
+.footer p{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #BDBDBD;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .butoon{
+        margin: 0 auto;
+    }
+    .textContent{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 1024px){
+    .nav{
+        margin-bottom: 90px;
+    }
+    .nav p{
+        font-size: 24px;
+    }
+    .content{
+        flex-direction: row;
+    }
+    .content img{
+        height: 447px;
+        width: 500px;
+        margin-right:200px;
+        margin-left: 77px;
+    }
+    .textContent{
+        width: 600px;
+        height: 190;
+        padding: 20px;
+    }
+    .textContent h1{
+        font-size: 64px;
+    }
+    .textContent p{
+        width: 381px;
+        height: 108px;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        text-align: left;
+    }
+    .butoon p{
+        padding: 25px;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+        text-align: left;
+    }
+}
